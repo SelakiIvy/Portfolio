@@ -2,6 +2,7 @@
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --default-font-family: "Poppins", sans-serif;
   }
   
   body {
@@ -12,6 +13,9 @@
   h2,
   h3 {
     margin: 0;
+    color: 'black';
+    font-family: 'var(--heading-font-family)';
+    font-weight: bold;
   }
   
   h1 {
@@ -62,6 +66,8 @@
       text-align: center;
     }
   }
+
+  
   .primary-link {
     border-radius: 4px;
     padding: 20px 15px;
@@ -94,7 +100,16 @@
   .about-paragraphs p {
     margin: 10px;
   }
-  
+  @media (max-width: 900px) {
+    .project-desciption {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.project-desciption {
+    padding: 120px 60px;
+}
   .email-link {
     display: flex;
     justify-content: center;
@@ -106,4 +121,7 @@
   .email-link:hover {
     text-decoration: underline;
   }
-  
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+ }
