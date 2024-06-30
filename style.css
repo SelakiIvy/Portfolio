@@ -125,3 +125,7 @@
     flex: 0 0 auto;
     width: 50%;
  }
+ .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
