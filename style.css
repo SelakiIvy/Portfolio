@@ -178,6 +178,11 @@ a:hover {
 .about-paragraphs{
   display: flex;
   margin: 30px 0;
+  background: var(--button-background);
+  padding: 20px;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 18px;
 }
 .about-paragraphs p {
   margin: 10px;
