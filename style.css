@@ -3,6 +3,7 @@
     --secondary-color: #f5f2fe;
     --button-background: rgb(136, 197, 233);
     --link-text-colour: #f3f6f8;
+    --branding-color: #6c63ff;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --default-font-family: "Poppins", sans-serif;
   }
@@ -204,4 +205,42 @@ a:hover {
   margin-top: calc(var(--bs-gutter-y)* -1);
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
+}
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
