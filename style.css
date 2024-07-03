@@ -70,7 +70,9 @@
     }
   }
 
-  
+  .logo {
+    max-height: 40px;
+  }
   .primary-link {
     border-radius: 4px;
     padding: 20px 15px;
