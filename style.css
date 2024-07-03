@@ -206,10 +206,6 @@ a:hover {
   line-height: 27px;
   padding: 15px 30px;
 }
-#contact {
-background-color: aqua;
-}
-
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
