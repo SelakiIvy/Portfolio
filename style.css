@@ -197,6 +197,7 @@ a:hover {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  border: 1px solid var(--branding-color);
 }
 .btn-branding-outline {
   color: var(--branding-color);
