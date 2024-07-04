@@ -3,7 +3,7 @@
     --secondary-color: #f5f2fe;
     --button-background: rgb(136, 197, 233);
     --link-text-colour: #f3f6f8;
-    --branding-color: #6c63ff;
+    --branding-color: hsl(243, 59%, 43%);
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --default-font-family: "Poppins", sans-serif;
   }
@@ -191,13 +191,12 @@ a:hover {
   margin: 10px;
 }
 .btn-branding {
-  background: hwb(214 42% 8%);
+  background: hwb(213 4% 72%);
   border-radius: 4px;
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  border: 1px solid var(--branding-color);
 }
 .btn-branding-outline {
   color: var(--branding-color);
